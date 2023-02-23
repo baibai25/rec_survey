@@ -1,0 +1,8 @@
+- https://github.com/ibayer/fastFM
+- https://www.tensorflow.org/recommenders
+- https://github.com/NicolasHug/Surprise
+- https://github.com/NVIDIA-Merlin/Transformers4Rec
+- https://github.com/statisticianinstilettos/recmetrics
+- https://github.com/shenweichen/DeepCTR
+- https://github.com/ylongqi/openrec
+- https://github.com/lyst/lightfm
