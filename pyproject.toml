@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "rec-survey"
+version = "0.1.0"
+description = ""
+authors = ["baibai25 <kamuy.camel.0225@gmail.com>"]
+readme = "README.md"
+packages = [{include = "rec_survey"}]
+
+[tool.poetry.dependencies]
+python = "3.8.15"
+pandas = "^1.5.3"
+ipykernel = "^6.21.2"
+numpy = "^1.24.2"
+seaborn = "^0.12.2"
+matplotlib = "^3.7.0"
+scikit-learn = "^1.2.1"
+black = {extras = ["jupyter"], version = "^23.1.0"}
+flake8 = "^6.0.0"
+isort = "^5.12.0"
+mypy = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
