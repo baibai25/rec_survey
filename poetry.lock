@@ -1174,6 +1174,23 @@ files = [
 ]
 
 [[package]]
+name = "lightfm"
+version = "1.17"
+description = "LightFM recommendation model"
+category = "main"
+optional = false
+python-versions = "*"
+files = [
+    {file = "lightfm-1.17.tar.gz", hash = "sha256:2b77ada182ccd768a8d7643ab3cfcd8b6e855db09087f7cc7329bd63316697a8"},
+]
+
+[package.dependencies]
+numpy = "*"
+requests = "*"
+scikit-learn = "*"
+scipy = ">=0.17.0"
+
+[[package]]
 name = "markdown"
 version = "3.4.1"
 description = "Python implementation of Markdown."
@@ -2843,4 +2860,4 @@ testing = ["flake8 (<5)", "func-timeout", "jaraco.functools", "jaraco.itertools"
 [metadata]
 lock-version = "2.0"
 python-versions = "3.8.15"
-content-hash = "2017e77d092bd5c9180e926d7196455c9dbec4f5f0bbc826874de8825ffc68ca"
+content-hash = "f2694319bb750a88e03775bd045dbe44dc492b6497a3252e278e980738c2ab52"
